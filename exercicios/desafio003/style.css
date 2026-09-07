@@ -1,0 +1,137 @@
+@charset "#UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 1.1em;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background-color: #1B5931;
+    background-image: linear-gradient(to bottom, #5dd587ee, #163521);
+}
+nav {
+    padding: 3px;
+    text-align: left;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+nav > a:hover {
+    padding: 5px;
+    margin: 5px;
+    background-color: #1b5931a9;
+    color: #7bcd98;
+}
+
+body {
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    margin: 0px auto 10px auto;
+    max-width: 900px;
+}
+
+main > p {
+    font-size: 1.1em;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+main > p > a {
+    text-decoration: none;
+    background-color: #a7e6bc;
+    color: #18552d;
+    font-weight: bold;
+}
+
+main > p > mark {
+    background-color: transparent;
+    color: #18552d;
+    font-weight: bold;
+}
+
+.titulo {
+    font-family: 'idroid', sans-serif;
+    color: #1B5931;
+}
+
+h2 {
+    background-image: linear-gradient(to right, #7bcd98ee, #a7e6bc7c, transparent);
+    padding: 1px;
+}
+
+#extra {
+    background-color: #079c3b;
+    text-indent: 0px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    border-radius: 10px 10px 0px 0px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+#video {
+    background-color: rgb(4, 116, 47);
+    padding: 40px;
+    margin: 25px -20px 25px -20px;
+    max-width: 900px;
+}
+
+#tabela {
+    background-color: #079c3b63;
+    margin: 0;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#tabela > p {
+    font-size: 1.1em;
+    text-align: justify;
+    text-indent: 30px;
+}    
+
+.lista {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lista ul {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: rgb(4, 116, 47);
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding: 5px;
+    margin: 0px;
+}
+
+footer > p {
+    margin: 0px;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #1F0062;
+            margin: 0;
+        }
+
+        header {
+            background-color: #F5F5DC;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        nav {
+            background-color: #d7d7c3;
+            padding: 3px;
+            box-shadow: 1px 3px 6px 1px black;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main { 
+            background-color: #F5F5DC;
+            padding: 10px;
+            margin: 12px;
+            border-radius: 10px 0px;
+            box-shadow: 1px 3px 6px 1px rgba(0, 0, 0, 0.389);
+        }
+
+        section > p {
+            background-color: #d7d7c3;
+            font-weight: bold;
+        }
+        
+        article {
+            background-color: #d7d7c3;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: #b8b8aa;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Politica Futebol Celebridades</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum facilis delectus officia. Provident architecto libero quis magni consequatur fugit laborum distinctio iste sequi! Perspiciatis neque excepturi, hic nemo magni dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis omnis quam ea illum! Eius, libero rem assumenda officiis harum modi perspiciatis qui earum similique, doloribus minus illo, perferendis laboriosam recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ut pariatur reiciendis minima accusantium animi officiis, laborum nulla dolore incidunt, omnis doloremque nisi. Aspernatur quas beatae nostrum amet eaque commodi? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur temporibus nisi iure quas optio quos, maiores voluptas sint corporis. Dolorem sed nam saepe ipsam odio quibusdam voluptates possimus accusantium beatae!</p>
+                <aside>
+                    <p>Artigo escrito por Kleber Junior</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Kleber Junior</p>
+    </footer>
+</body>
+</html>

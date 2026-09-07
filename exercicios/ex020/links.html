@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* SELETORES PERSONALIZADOS
+            # = id
+            . = class
+            : = pesudo-class
+            :: = pseudo-element
+            > = children
+    
+        */
+
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none; /* tira o sublinhado do link*/
+            font-weight: bold;
+        }
+
+        a:visited { /* pseudo classe para link visitado*/
+            color: darkred;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        .especial {
+            background-color: rgb(239, 98, 98);
+        }
+
+        a:active { /* pseudo classe para link ativado(clicado)*/
+            color: yellow;
+        }
+
+        a::before { /* :: são pseudo elementos*/
+            content: '⇨'; /* conteúdo*/
+        }
+
+        a::after {
+            content: '⇦';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://sakuramangas.org" target="_blank">Sakura Mangás</a></li>
+        <li><a href="https://darkmahou.io" target="_blank" class="especial">Dark Animes</a></li>
+    </ul>
+</body>
+</html>
