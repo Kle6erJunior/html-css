@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        caption{
+            font-size: 2em;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 600px;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Tabela de filmes</h1>
+
+    <table>
+        <tr>
+            <th>Grupo</th>
+            <th>Nomes</th>
+            <th colspan="3">Filmes</th>
+        </tr>
+
+        <tr>
+            <th rowspan="3">Mulheres</th>
+            <td>Ana Clara</td>
+            <td>Batman</td>
+            <td>Harry Potter</td>
+            <td>Lock Back</td>
+        </tr>
+
+        <tr>
+            <td>Geovana Oliveira</td>
+            <td>Perfect Blue</td>
+            <td>Pricessa Mononoke</td>
+            <td>Parasite</td>
+        </tr>
+
+        <tr>
+            <td>Maria Eduarda</td>
+            <td>Evagelion</td>
+            <td>Psycho</td>
+            <td>Seven</td>
+        </tr>
+
+        <tr>
+            <th rowspan="3">Homens</th>
+            <td>Luis Carlos</td>
+            <td>Prisoners</td>
+            <td>Taxi Drive</td>
+            <td>Aliens</td>
+        </tr>
+
+        <tr>
+            <td>Carlos Eduardo</td>
+            <td>Superman</td>
+            <td>Vingadores</td>
+            <td>Homem Aranha</td>
+        </tr>
+
+        <tr>
+            <td>Gabriel Santos</td>
+            <td>Goodfellas</td>
+            <td>Godfather</td>
+            <td>Kill Bill</td>
+        </tr>
+    </table>
+</body>
+</html>
