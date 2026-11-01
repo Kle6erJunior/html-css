@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/*Todas as demais mídias*/
+
+/*Typical Device Breakpoints
+-----------------------------
+Pequenas telas: até 600px
+celular: 600px até 768px
+tablet: 768px até 1023px
+laptop: 1024px até 1279px
+desktop: 1280px até 1535px
+Grandes telas: acima de 1536px
+*/
+
+
+@media print{ /* IMPRESSÃO */
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    body{
+        background-image: url(../imagens/back-print.jpg); /*DESNECESSÁRIO, já que não e possivel imprimir o background*/
+    }
+
+    main{
+        border: 2px solid black;
+    }
+
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
+
+    #phone {display: none;}
+    #tablet {display: none;}
+    #print {display: block;}
+    #pc {display: none;}
+    #tv {display: none;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) { /* TABLET */
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    #phone {display: none;}
+    #tablet {display: block;}
+    #print {display: none;}
+    #pc {display: none;}
+    #tv {display: none;}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1534px) { /* DESKTOP */
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    #phone {display: none;}
+    #tablet {display: none;}
+    #print {display: none;}
+    #pc {display: block;}
+    #tv {display: none;}
+}
+
+@media screen and (min-width: 1535px) { /* GRANDES TELAS/ aqui coloquei menor só para funcionar nessa tela */
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+    main{
+        width: 700px;
+}
+
+    #phone {display: none;}
+    #tablet {display: none;}
+    #print {display: none;}
+    #pc {display: none;}
+    #tv {display: block;}
+}
