@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+
+            </div>
+            <div id="formulario">
+                <h1>Seja Bem-vindo(a)!</h1>
+                <p>Para prosseguirmos por favor faça o login.</p>
+            </div>
+            <form action="cadastro.php" method="post" autocomplete="on">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24px" width="24px" fill="#FFFFFF"><path d="M9.18,10.83Q8,9.65 8,8T9.18,5.18T12,4t2.83,1.18T16,8t-1.17,2.82T12,12T9.18,10.83ZM4,20V17.2q0-0.85 0.44-1.56q0.44-0.71 1.16-1.09q1.55-0.78 3.15-1.16T12,13t3.25,0.39t3.15,1.16q0.72,0.38 1.16,1.09T20,17.2V20H4Zm2-2H18V17.2q0-0.27-0.14-0.5q-0.14-0.22-0.36-0.35q-1.35-0.68-2.72-1.01T12,15T9.23,15.34T6.5,16.35Q6.28,16.48 6.14,16.7Q6,16.93 6,17.2V18Zm7.41-8.59Q14,8.82 14,8T13.41,6.59T12,6T10.59,6.59Q10,7.18 10,8t0.59,1.41T12,10t1.41-0.59ZM12,8Zm0,10Z"/></svg>
+                <input type="email" name="email" id="iemail" required placeholder="Digite seu e-mail" autocomplete="email" maxlength="30">
+                <label for="iemail">E-mail</label>
+                
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24px" width="24px" fill="#FFFFFF"><path d="M7,18q-2.5,0-4.25-1.75T1,12T2.75,7.75T7,6q1.65,0 3.03,0.82T12.2,9H23v6H21v3H15V15H12.2q-0.8,1.35-2.18,2.18T7,18Zm0-2q1.65,0 2.65-1.01q1-1.01 1.2-1.99H17v3h2V13h2V11H10.85q-0.2-0.98-1.2-1.99T7,8T4.18,9.17T3,12t1.17,2.82T7,16Zm0-2q0.83,0 1.41-0.59T9,12T8.41,10.59Q7.83,10 7,10T5.59,10.59Q5,11.18 5,12t0.59,1.41T7,14Zm0-2Z"/></svg>
+                <input type="password" name="senha" id="isenha" required placeholder="Digite sua senha" autocomplete="current-password" maxlength="20" minlength="8">
+                <label for="isenha">Senha</label>
+
+                <div>
+                    <input type="submit" value="Entrar">
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
